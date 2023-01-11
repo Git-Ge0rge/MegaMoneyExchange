@@ -6,8 +6,7 @@ function NavBar() {
   return (
     <div>
         <nav className='navbar'>
-
-            <input className='searchBar' placeholder="Global Search..."/>
+          <input className='searchBar' placeholder="Global Search..."/>
         <ul>
           <li><Link to='/'> Home </Link></li>
           <li><Link to='/reports'> Reports </Link></li>

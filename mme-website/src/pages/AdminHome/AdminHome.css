@@ -1,0 +1,17 @@
+.container-homepage{
+    display: flex;
+    gap: 10px;
+}
+
+.top-tables-homepage{
+    padding: 10rem;
+    background: red;
+    margin: 1rem;
+}
+
+.top-tables-homepage2{
+    padding: 10rem;
+    background: red;
+    margin: 1rem;
+    margin-left: 62rem;
+}
