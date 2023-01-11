@@ -23,9 +23,6 @@ function App() {
         <Route path="send-money" element={<SendMoneyAdmin/>}/>
         <Route path="view-orders" element={<ViewOrdersAdmin/>}/>
         <Route path="offer-rate" element={<OfferRateAdmin/>}/>
-
-
-
       </Routes>
     </div>
   );

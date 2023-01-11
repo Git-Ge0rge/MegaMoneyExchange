@@ -9,13 +9,13 @@ function NavBar() {
 
             <input className='searchBar' placeholder="Global Search..."/>
         <ul>
-          <Link to='/'> Home </Link>
-          <Link to='/reports'> Reports </Link>
-          <Link to='/contacts'> Contacts</Link>
-          <Link to='/add-customer'> Add Customer </Link>
-          <Link to='/send-money'> Send Money </Link>
-          <Link to='/view-orders'> View Orders </Link>
-          <Link to='/offer-rate'> Offer Rate </Link>
+          <li><Link to='/'> Home </Link></li>
+          <li><Link to='/reports'> Reports </Link></li>
+          <li><Link to='/contacts'> Contacts</Link></li>
+          <li><Link to='/add-customer'> Add Customer </Link></li>
+          <li><Link to='/send-money'> Send Money </Link></li>
+          <li><Link to='/view-orders'> View Orders </Link></li>
+          <li><Link to='/offer-rate'> Offer Rate </Link></li>
         </ul>
       </nav>  
     </div>
