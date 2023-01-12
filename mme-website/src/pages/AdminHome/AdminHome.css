@@ -1,17 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .container-homepage{
     display: flex;
-    gap: 10px;
 }
 
 .top-tables-homepage{
-    padding: 10rem;
-    background: red;
+    background: white;
     margin: 1rem;
+    border: 10rem;
 }
 
 .top-tables-homepage2{
-    padding: 10rem;
     background: red;
     margin: 1rem;
-    margin-left: 62rem;
+    border: 10rem;
+
+
+  
+    
 }
