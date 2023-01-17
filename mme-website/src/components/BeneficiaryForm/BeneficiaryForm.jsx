@@ -23,7 +23,7 @@ function BenefiecaryForm(props) {
             value={fullName}
             onChange={(e) => setFullName(e.target.value)}
             />
-
+            
           <label> Sender's WhatsApp #</label>
             <input
             type="number"
@@ -79,16 +79,7 @@ function BenefiecaryForm(props) {
             value={additionalComments.toUpperCase()}
             onChange={(e) => setAdditionalComments(e.target.value)}
             />
-
         </form>
-
-
-
-
-
-
-
-
     </div>
   )
 }
