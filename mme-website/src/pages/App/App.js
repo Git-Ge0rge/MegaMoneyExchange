@@ -8,7 +8,6 @@ import AddCustomerAdmin from '../AddCustomerAdmin/AddCustomerAdmin';
 import SendMoneyAdmin from '../SendMoneyAdmin/SendMoneyAdmin';
 import ViewOrdersAdmin from '../ViewOrdersAdmin/ViewOrdersAdmin';
 import OfferRateAdmin from '../OfferRateAdmin/OfferRateAdmin';
-import BeneficiaryForm from '../../components/BeneficiaryForm/BeneficiaryForm';
 import './App.css';
 
 function App() {

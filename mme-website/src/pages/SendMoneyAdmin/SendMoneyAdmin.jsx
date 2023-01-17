@@ -1,8 +1,9 @@
 import React from 'react'
+import SendMoneyAdminForm from '../../components/SendMoneyAdminForm/SendMoneyAdminForm'
 
 function SendMoneyAdmin() {
   return (
-    <div>SendMoneyAdmin</div>
+    <div><SendMoneyAdminForm/></div>
   )
 }
 
