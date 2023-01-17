@@ -1,4 +1,4 @@
-import NavBar from '../../components/NavBar';
+import NavBar from '../../components/NavBar/NavBar';
 import {Route, Routes} from "react-router-dom";
 import AdminHome from '../AdminHome/AdminHome';
 import ReportsAdmin from '../ReportsAdmin/ReportsAdmin';
