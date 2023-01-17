@@ -1,8 +1,11 @@
 import React from 'react'
+import BeneficiaryForm from '../../components/BeneficiaryForm/BeneficiaryForm'
 
 function ViewCustomerAdmin() {
   return (
-    <div>ViewCustomer</div>
+    <div>
+      <BeneficiaryForm/>
+    </div>
   )
 }
 

@@ -19,7 +19,7 @@ function App() {
         <Route path="/" element={<AdminHome/>}/>
         <Route path="reports" element={<ReportsAdmin/>}/>
         <Route path="contacts" element={<ContactsAdmin/>}/>
-        <Route path="view-customer/:id" element={<BeneficiaryForm/>}/>
+        <Route path="view-customer/:id" element={<ViewCustomerAdmin/>}/>
         <Route path="add-customer" element={<AddCustomerAdmin/>}/>
         <Route path="send-money" element={<SendMoneyAdmin/>}/>
         <Route path="view-orders" element={<ViewOrdersAdmin/>}/>
