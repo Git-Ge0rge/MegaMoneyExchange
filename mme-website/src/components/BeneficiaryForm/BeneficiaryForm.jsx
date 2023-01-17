@@ -1,5 +1,5 @@
 import React from 'react';
-import "./BeneficiaryForm.css";
+import "./BeneficiaryForms.css";
 import {useState} from "react";
 
 function BenefiecaryForm(props) {

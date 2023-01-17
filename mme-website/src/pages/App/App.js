@@ -8,6 +8,7 @@ import AddCustomerAdmin from '../AddCustomerAdmin/AddCustomerAdmin';
 import SendMoneyAdmin from '../SendMoneyAdmin/SendMoneyAdmin';
 import ViewOrdersAdmin from '../ViewOrdersAdmin/ViewOrdersAdmin';
 import OfferRateAdmin from '../OfferRateAdmin/OfferRateAdmin';
+import BeneficiaryForm from '../../components/BeneficiaryForm/BeneficiaryForm';
 import './App.css';
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
         <Route path="/" element={<AdminHome/>}/>
         <Route path="reports" element={<ReportsAdmin/>}/>
         <Route path="contacts" element={<ContactsAdmin/>}/>
-        <Route path="view-customer" element={<ViewCustomerAdmin/>}/>
+        <Route path="view-customer/:id" element={<BeneficiaryForm/>}/>
         <Route path="add-customer" element={<AddCustomerAdmin/>}/>
         <Route path="send-money" element={<SendMoneyAdmin/>}/>
         <Route path="view-orders" element={<ViewOrdersAdmin/>}/>
