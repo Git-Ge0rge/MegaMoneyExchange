@@ -1,10 +1,12 @@
-import React from 'react'
-import SendMoneyAdminForm from '../../components/SendMoneyAdminForm/SendMoneyAdminForm'
+import React from "react";
+import SendMoneyAdminForm from "../../components/SendMoneyAdminForm/SendMoneyAdminForm";
 
 function SendMoneyAdmin() {
   return (
-    <div><SendMoneyAdminForm/></div>
-  )
+    <div>
+      <SendMoneyAdminForm />
+    </div>
+  );
 }
 
-export default SendMoneyAdmin
+export default SendMoneyAdmin;
